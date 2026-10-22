@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+data/
+*.corrupt
+
+# 编辑器/系统
+.idea/
+.vscode/
+.codebuddy/
+.claude/
+
+# 测试产生的临时文件
+*.log
+
+# PyInstaller 打包产物
+build/
+dist/
+*.manifest
+
+# Vite 临时文件
+web/vite.config.ts.timestamp-*.mjs
+

@@ -1,0 +1,10 @@
+﻿初始提交：MoyuChat 项目源码（Python 服务端/客户端 + React 网页端）
+
+将当前 moyu 项目完整源码纳入版本控制并同步至远程仓库 looktool/Workspace：
+- 桌面客户端 client.py 与一体化服务器 server_app.py（TCP + UDP 发现 + 网页托管）
+- UDP 自动发现 discover.py、MySQL 存储 storage.py、WebSocket 桥接 ws_bridge.py
+- React + TDesign 网页前端 web/（已忽略 node_modules 与构建产物）
+- 全套单元测试与端到端测试（test_*.py、web/smoke）
+- PyInstaller 打包配置 MoyuChat.spec / MoyuChatServer.spec 与说明 README.md
+
+说明：本提交仅包含 moyu 项目源码；仓库内其余无关二进制文件与历史未纳入远程。
